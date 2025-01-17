@@ -1,6 +1,4 @@
-# Thorgate's Django template
-
-[![Build status](https://gitlab.com/thorgate-public/django-project-template/badges/master/pipeline.svg)](https://gitlab.com/thorgate-public/django-project-template/commits/master)
+# Interbase League (IBL)
 
 [Django](https://www.djangoproject.com/) project template that we use at [Thorgate](https://thorgate.eu).
 
@@ -40,35 +38,27 @@ _(note that the primary repo is in [Gitlab](https://gitlab.com/thorgate-public/d
 ## Usage
 
 To use this template, first ensure that you have
-[Poetry](https://python-poetry.org/docs/) available.
+[Django](https://docs.djangoproject.com/en/5.1/) available ans installed.
 
 After that, you should:
 
 1. Install the requirements of the project template by running
    ```
-   poetry install
+   pip3 -m venv env
    ```
-2. Activate the virtualenv created by _poetry_:
+2. Activate the virtualenv 
    ```
-   poetry shell
+   source ./env/bin/activate
    ```
 3. Navigate to the directory where you'd like to create your project:
 
    ```
-   cd /home/my-awesome-projects/
+   cd /home/project_directory/
    ```
-
-4. Create a new project by executing:
-   ```
-   cookiecutter dir/to/django-project-template/
-   ```
-
-It will ask you a few questions, e.g. project's name, python version and so on. **For a reference of all the configuration options** see [CookiecutterVariables.md](./CookiecutterVariables.md) file.
-
-To create isomorphic single-page application set `frontend_style == spa`. Then separate node application will be created supported by [Razzle](https://razzlejs.org/)
-
-After generation completes, **you should deactivate virtual environment for cookiecutter**,
-search for any TODOs in the code and make appropriate changes where needed.
+4. Once the virtual directory is activates, run
+```
+python manage.py runserver (localhost:8000)
+```
 
 See README.md in the generated project for instructions on how to set up your development environment.
 
