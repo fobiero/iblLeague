@@ -1,11 +1,9 @@
 # Interbase League (IBL)
+Interbase league is a popular football festival based in Nairobi Kibera to be specific. The software acts as a catalyst to ensure the league runs smoothly and thus captures every tiny details.
 
-[Django](https://www.djangoproject.com/) project template that we use at [Thorgate](https://thorgate.eu).
+[Django](https://www.djangoproject.com/) project template that we use at [KICINCO](https://kicinco.com).
 
 Best suited for medium-sized and bigger apps that use JavaScript and React for frontend or single page web applications.
-
-_(note that the primary repo is in [Gitlab](https://gitlab.com/thorgate-public/django-project-template), with mirror in [Github](https://github.com/thorgate/django-project-template))_
-
 ## Features
 
 - Django-based backend
@@ -15,7 +13,7 @@ _(note that the primary repo is in [Gitlab](https://gitlab.com/thorgate-public/d
   - Python 3.6 or later
   - [SPA] Accessible from port `8000` for local development
 
-- Frontend app with JavaScript (ES2015), React and Sass
+- Frontend app with JavaScript (ES2015), React and SaaS
 
   - Latest JavaScript features from [ES2015](https://babeljs.io/docs/learn-es2015/) and beyond, transpiled with
     [Babel](https://babeljs.io/)
@@ -23,7 +21,7 @@ _(note that the primary repo is in [Gitlab](https://gitlab.com/thorgate-public/d
   - [Sass](http://sass-lang.com/), [PostCSS](http://postcss.org/) and
   - [Webpack](https://webpack.github.io/) is used to bundle and minify JavaScript and styles
 
-- Batteries
+- Configs & Run
 
   - Docker / Docker Compose integration
   - Linting of Python, JavaScript and Sass code with [Prospector](http://prospector.landscape.io/),
@@ -38,7 +36,7 @@ _(note that the primary repo is in [Gitlab](https://gitlab.com/thorgate-public/d
 ## Usage
 
 To use this template, first ensure that you have
-[Django](https://docs.djangoproject.com/en/5.1/) available ans installed.
+[Django](https://docs.djangoproject.com/en/5.1/) available and installed.
 
 After that, you should:
 
@@ -78,7 +76,7 @@ Translations are done with Django JavaScriptCatalog.
 
 ## Upgrading project template
 
-First ensure you have a python3 interpreter with `cookiecutter` installed.
+First ensure you have a python3 interpreter with `django` installed.
 
 To upgrade an existing project, change the current working directory to the root of the project you want to upgrade. i.e. `cd project-to-upgrade`. Ensure your have not checked out the `template` branch.
 
