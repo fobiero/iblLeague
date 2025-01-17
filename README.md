@@ -12,6 +12,7 @@ Best suited for medium-sized and bigger apps that use JavaScript and React for f
   - Separate settings for different environments (local/staging/production)
   - Python 3.6 or later
   - [SPA] Accessible from port `:8000` for local development
+  - [PostgreSQL](https://docs.djangoproject.com/en/5.1/ref/databases/#postgresql-notes) - Structured database design for clean data fetch
 
 - Frontend app with JavaScript (ES2015), React and SaaS
 
@@ -31,7 +32,7 @@ Best suited for medium-sized and bigger apps that use JavaScript and React for f
   - Deploy helpers, using [Ansible](https://www.ansible.com/)
   - Media files are stored in a CDN like S3 or Google Cloud Storage
   - Out-of-the-box configuration for nginx, gunicorn and logrotate
-  - Includes [PyCharm](https://www.jetbrains.com/pycharm/) project config
+  - Includes [PyCharm](https://www.jetbrains.com/pycharm/) | [VSCode](https://code.visualstudio.com/) project config and cod formatter
 
 ## Usage
 
@@ -49,14 +50,17 @@ After that, you should:
    source ./env/bin/activate
    ```
 3. Navigate to the directory where you'd like to create your project:
-
    ```
    cd /home/project_directory/
    ```
-4. Once the virtual directory is activates, run
-```
-python manage.py runserver (localhost:8000)
-```
+4. Run the following command to install all project packages and dependencies
+   ```
+    pip install -r requirements.txt
+   ```
+5. Once the virtual directory is activates, run
+    ```
+    python manage.py runserver (localhost:8000)
+    ```
 
 See README.md in the generated project for instructions on how to set up your development environment.
 
