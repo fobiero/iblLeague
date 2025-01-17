@@ -11,7 +11,7 @@ Best suited for medium-sized and bigger apps that use JavaScript and React for f
   - [Django](https://www.djangoproject.com/)
   - Separate settings for different environments (local/staging/production)
   - Python 3.6 or later
-  - [SPA] Accessible from port `8000` for local development
+  - [SPA] Accessible from port `:8000` for local development
 
 - Frontend app with JavaScript (ES2015), React and SaaS
 
@@ -74,7 +74,7 @@ React powered application rendered with Django templates. This is the default op
 During development separate container is used to build assets. In production, node built with multi-stage image.
 Translations are done with Django JavaScriptCatalog.
 
-## Upgrading project template
+## Project dependencies upgrade
 
 First ensure you have a python3 interpreter with `django` installed.
 
