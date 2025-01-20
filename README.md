@@ -1,9 +1,11 @@
 # Interbase League (IBL)
+
 Interbase league is a popular football festival based in Nairobi Kibera to be specific. The software acts as a catalyst to ensure the league runs smoothly and thus captures every tiny details.
 
 [Django](https://www.djangoproject.com/) project template that we use at [KICINCO](https://kicinco.com).
 
 Best suited for medium-sized and bigger apps that use JavaScript and React for frontend or single page web applications.
+
 ## Features
 
 - Django-based backend
@@ -45,7 +47,7 @@ After that, you should:
    ```
    pip3 -m venv env
    ```
-2. Activate the virtualenv 
+2. Activate the virtualenv
    ```
    source ./env/bin/activate
    ```
@@ -58,9 +60,9 @@ After that, you should:
     pip install -r requirements.txt
    ```
 5. Once the virtual directory is activates, run
-    ```
-    python manage.py runserver (localhost:8000)
-    ```
+   ```
+   python manage.py runserver (localhost:8000)
+   ```
 
 See README.md in the generated project for instructions on how to set up your development environment.
 
